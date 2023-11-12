@@ -1,2 +1,2 @@
 # EduMat
-Educational materials 
+Educational materials in computer architecture field.
