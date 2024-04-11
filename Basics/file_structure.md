@@ -36,10 +36,10 @@ jle .true     ; we have a new conditional jump to the label true if value of eax
 jge .false  ; we have a new conditional jump to the label false if value of eax is greater then value stored in the register ebx  
 true: ; the true label is defined and it's action started     
 mov eax, 1 ; we store in the register eax value 1   
-0x80    we make a system call. This instruction makes a call to the label _start.  in order to get the register value and according to the previous instruction -> compare to jump to the current label and to the logic inside the label. The system call returns the value of register eax. We must use we must use as less as possible unrequired system calls, in order our instruction executions to be faster.  
+int 0x80    we make a system call. This instruction makes a call to the label _start.  in order to get the register value and according to the previous instruction -> compare to jump to the current label and to the logic inside the label. The system call returns the value of register eax. We must use we must use as less as possible unrequired system calls, in order our instruction executions to be faster.  
 false:  ; the false label is defined and it starts here  
 mov eax, 0  ;we store in the register eax value 0  
-0x80  ; we make a system call to the _start label again  
+int 0x80  ; we make a system call to the _start label again  
 ## Basic toolchain for work:
 To jump into code writing we need some packages:  
 Vim- text editor  
