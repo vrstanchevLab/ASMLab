@@ -24,7 +24,7 @@ Assembly language -> Machine code
 We can tell that when the level of abstraction is as smaller as possible, the programe executes faster. This is very important for embedded systems and for execution of  real-time processes, for example fighterjet missle control system. When we make a dessision for  a few seconds.
 ## Tools for C/Assembly language build automaion
 make or cmake
-##The Makefile commands example
+## The Makefile commands example
 myprogram.o: myprogram.asm  
 	nasm -f elf myprogram.asm  
 myprogram: myprogram.o  
