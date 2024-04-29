@@ -1,0 +1,10 @@
+1. use the file from overview exercise
+2. Compile the assembly language file using the following commands:
+nasm -f elf exercise1.asm
+ld -m elf i386 -s -o exercise1 exercise1.o
+./exercise1
+echo $?
+3.Put the commands into Makefile
+4. Run the commands from Makefile using the following syntax:
+make target1
+

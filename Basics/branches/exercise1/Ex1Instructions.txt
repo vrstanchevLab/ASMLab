@@ -1,0 +1,25 @@
+Define the exercise for Lecture 3
+1. Create the files called conditionalex.asm and nonconditionalex.asm
+2. Write the following code into conditionalex.asm file:
+.data 
+
+
+.text
+global _start
+_start:
+mov eax, 10
+mov ebx, 35
+cmp eax, ebx
+jle fstlabel
+fstlabel:
+mov eax,1
+int 0x80
+jge sndlabel
+sndlabel:
+mov eax,2
+int 0x80
+je eqlabel
+eqlabel:
+mov eax,0
+int 0x80
+
