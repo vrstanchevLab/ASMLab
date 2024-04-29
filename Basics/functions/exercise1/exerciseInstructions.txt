@@ -1,0 +1,18 @@
+Definition of the exercise of Lecture 5
+1. Open the file called exercise1.asm and write into it logic for non-conditional (direct) jump
+Hint: Please make a reference to the Branches Lecture    section called Difference between conditional and non-conditional (direct) jump.
+Note: You must define 3 functions and every function takes 1 argument.
+Reference to practical example:
+.data
+.text
+global _start
+_start:
+mov eax, 5
+mov ebx, 10
+jmp fstlabel
+jmp sndlabel
+firstlabel:
+; write first function logic here
+sndlabel:
+; write second  function logic here
+

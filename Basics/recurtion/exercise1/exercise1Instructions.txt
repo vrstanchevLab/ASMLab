@@ -1,0 +1,7 @@
+Definition of exercise1 for Lecture6
+1. Define the _start function
+2. Define the first function
+3. Define the second function
+4. Define the third  function
+The functions calls each other
+
