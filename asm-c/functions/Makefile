@@ -8,3 +8,5 @@ view:
 	ls .
 clear:
 	rm program.o program
+lib: program.o
+	ar rcs libfunct.a program.o
