@@ -1,12 +1,15 @@
 program.o:program.c
 	gcc -c -o program.o program.c
-program:program.o
-	gcc program.o -o program
+function.o:function.c
+	gcc -c -o function.o function.c
+libfunct.a:  function.o
+	ar rcs libfunct.a  function.o 
+program: program.o libfunct.a
+	gcc -o program  program.o libfunct.a
+
 run:program
 	./program
 view:
 	ls .
 clear:
-	rm program.o program
-lib: program.o
-	ar rcs libfunct.a program.o
+	rm program.o function.o  program
