@@ -12,4 +12,4 @@ run:program
 view:
 	ls .
 clear:
-	rm program.o function.o  program
+	rm program.o libfunct.a function.o  program
