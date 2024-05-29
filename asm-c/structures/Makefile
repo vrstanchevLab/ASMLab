@@ -1,4 +1,4 @@
-program.o:program.c
+program.o: structure.c function.c program.c
 	gcc -c -o program.o program.c
 function.o:function.c
 	gcc -c -o function.o function.c

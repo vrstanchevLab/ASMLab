@@ -1,11 +1,11 @@
 #include<stdio.h>
-void introP(char name[20],int age,char g){
-printf("Name is: %c\n",name);
-printf("Age is: %d\n",age);
-printf("Gender is:%c\n",g);
+void introduceP(struct person p){
+printf("Name is: %c\n",p.name);
+printf("Age is: %d\n",p.age);
+printf("Gender is:%c\n",p.g);
 }
-void introH(int hnum,int rooms,char color[10]){
-printf("House number is: %d\n",hnum);
-printf("Rooms are: %d\n",rooms);
-printf("Color is:%c\n",color);
+void introH(struct house h){
+printf("House number is: %d\n",h.hnum);
+printf("Rooms are: %d\n",h.rooms);
+printf("Color is:%c\n",h.color);
 }

@@ -1,6 +1,6 @@
 #include<stdio.h>
 typedef struct person{
-char [20] name;
+char  name [20];
 int age;
 char g;
 } p;
