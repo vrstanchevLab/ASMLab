@@ -1,2 +1,2 @@
-int introduceP(struct);
-int introduceH(struct);
+void introduceP(struct);
+void introduceH(struct);
