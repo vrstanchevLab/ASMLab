@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include "program.h"
-int m,n;
-printf("Enter m:\n");
-scanf("%d",&m);
-printf("Enter n:\n");
-scanf("%d",&n);
-int arr1[m]; int arr2[n];
+int m=3,n=4;
+int arr1[]={1,2,3}; int arr2[]={4,5,6,7};
 int arrcmp(int arr1[m],int arr2[n]){
 int maxnum=0; int minnum=0; int i; int x; int tmp=0; int tmp1=0; int * arr1_addr; int * arr2_addr;
 for (i=0;i<=m;i+=1){

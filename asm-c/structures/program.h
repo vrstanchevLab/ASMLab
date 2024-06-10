@@ -1,4 +1,4 @@
 #include "function.c"
 #include "structure.c"
-void introduceP(struct);
-void introduceH(struct);
+void introduceP(struct p);
+void introduceH(struct h);

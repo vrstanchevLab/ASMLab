@@ -3,7 +3,7 @@ program.o:program.c
 pointers.o:pointers.c
 	gcc -c -o pointers.o pointers.c
 libarrpoint.a:  pointers.o
-	ar rcs libfunct.a  function.o 
+	ar rcs libarrpoint.a  pointers.o 
 program: program.o libarrpoint.a
 	gcc -o program  program.o libarrpoint.a
 
