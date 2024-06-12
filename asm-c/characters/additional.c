@@ -17,3 +17,16 @@ else{tmp=0;}
 }
 return tmp;
 }
+int chararrcmp(char str1[],char str2[],int charcnt1,int charcnt2){
+int charcount=0;int i,x;
+for(i=0;i<=charcnt1;i+=1){
+for(x=0;x<=charcnt2;x+=1){
+if(str2[x]==str1[i]){
+charcount+=1;
+printf("%c",str2[x]);
+printf("%c",str[i]);
+}
+}
+}
+return charcount;
+}
