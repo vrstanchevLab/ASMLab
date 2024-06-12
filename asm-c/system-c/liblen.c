@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+
 size_t strlenp(char *p){
 char given[10]; int i; char count='p';
 printf("Enter character\n");
@@ -13,7 +13,7 @@ else{printf("Error");}
 }
 return p;
 }
-*/
+
 int strleni(char p[10]){
 int i; int count=0;
 for(i=0;i<=10;i+=1){
