@@ -9,11 +9,11 @@ int res=strl(name,n);
 printf("String lenght is: %d\n",res);
 printf("\n");
 //charfind funcion call
-int charf=charfind(nm,f);
+int charf=charfind(name,f);
 printf("Result is: %d\n",charf);
 printf("\n");
 //chararrcmp funcion call
-char str1[]=name;
+char str1[]="name";
 char str2[]="age";
 int strcnt1=4;
 int strcnt2=3;

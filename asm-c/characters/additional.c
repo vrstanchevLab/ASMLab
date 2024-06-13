@@ -1,3 +1,4 @@
+#include <stdio.h>
 int strl(char str[],int n){
 int cnt=0;
 for(int i=0;i<=n;i+=1){
@@ -7,11 +8,11 @@ cnt=cnt+1;
 }
 return cnt;
 }
-int charfind(char str[],char f){
-int tmp=0;
-while(str!=NULL){
+int charfind(char str[],char f,int n){
+int tmp=0; int i;
+for(i=0;i<=n;i+=1){
 if(str[i]==f){
-tmp=1
+tmp=1;
 }
 else{tmp=0;}
 }
