@@ -25,7 +25,7 @@ for(x=0;x<=charcnt2;x+=1){
 if(str2[x]==str1[i]){
 charcount+=1;
 printf("%c",str2[x]);
-printf("%c",str[i]);
+printf("%c",str1[i]);
 }
 }
 }
