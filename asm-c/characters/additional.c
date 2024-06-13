@@ -31,3 +31,28 @@ printf("%c",str[i]);
 }
 return charcount;
 }
+int selfchar(char str[],int n,char f){
+int cnt=0;int i;
+for (i=0;i<=n;i+=1){
+if((str[i]!='\0') && (str[i]==f)){
+cnt+=1;
+printf("%c",str[i]);
+   }
+}
+return cnt;
+}
+void asciifind(char f){
+if(f>=65 && f<=90){
+printf("Capital letter\n");
+}
+else if(f>=91 && f<=96){
+printf("Special character\n");
+}
+else if(f>=97 && f<=122){
+printf("Lower case letter\n");
+}
+else if(f>=123 && f<=126){
+printf("Other character\n");
+}
+else{ printf("Numberic character:\n");}
+}

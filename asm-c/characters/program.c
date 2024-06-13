@@ -19,5 +19,12 @@ int strcnt1=4;
 int strcnt2=3;
 int strcres=chararrcmp(str1,str2,strcnt1,strcnt2);
 printf("Count of same characters is:%d\n",strcres);
+//selfchar function call
+int selfcharres=selfchar(str1,f);
+printf("Character is founded:%d times\n",selfcharres);
+//asciifind  function call
+char afres=asciifind(f);
+printf("Character type is :%d\n",afres);
+
 return (0);
 }
