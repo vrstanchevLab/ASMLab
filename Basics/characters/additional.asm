@@ -61,8 +61,91 @@ jle cfloop
 mov eax, cftmp
 int 0x80
 ;charfind function ends here
-
+;function chararrcmp starts here
 chararrcmp:
+caccnt equ 0
+mov eax,0
+mov ebx,0
+inc caccnt1,1
+cmp eax,caccnt1
+jle cacloop1
+mov ebx,0
+inc caccnt2,1
+cmp ebx,caccnt2
+jle cacloop2
+cacloop1:
+cacloop2:
+cmp cacstr1,cacstr2
+je ccntins
+ccntins:
+inc caccnt,1
+cmp eax,caccnt1
+jle cacloop1
+mov eax, caccnt
+int 0x80
+;function chararrcmp end here
+;function
 selfchar:
+sctmp equ 0
+mov eax,0 
+inc scn,1
+cmp eax,scn
+jle scins
+scins:
+cmp scstr,scf
+je scinc:
+scinc:
+inc sctmp,1
+cmp eax,scn
+jle scins
+mov eax, sctmp
+int 0x80
+;function asciifind starts here
 asciifind:
+mov eax,65
+cmp eax,af
+jge caplett
+mov eax,90
+cmp eax,af
+jle caplett
+caplett:
+mov ebx,1
+int 0x80
+mov eax,91
+cmp eax,af
+jge spch
+mov eax,96
+cmp eax,af
+jle spch
+spch:
+mov ebx,2
+int 0x80
+mov eax,97
+cmp eax,af
+jge lowlett
+mov eax,122
+cmp eax,af
+jle lowlett
+lowlett:
+mov ebx,3
+int 0x80
+mov eax,123
+cmp eax,af
+jge otherlett
+mov eax,126
+cmp eax,af
+jle otherlett
+otherlett:
+mov ebx,4
+int 0x80
+mov eax,200
+cmp eax,af
+jge numlett
+mov eax,300
+cmp eax,af
+jle numlett
+numlett:
+mov ebx,5
+int 0x80
+;function asciifind end here
 
