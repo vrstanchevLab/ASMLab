@@ -1,3 +1,10 @@
+int arrcounter(int arr[]){
+int i; int tmp=0;
+for(i=0;i<=i-1; i+=1){
+tmp+=1;
+}
+return tmp;
+}
 int minel(int arr[],int n){
 int i; int tmp; int minelement;
 for(i=0;i<=n;i+=1){

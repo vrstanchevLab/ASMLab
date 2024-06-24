@@ -3,7 +3,10 @@
 int main (void){
 int n=4;
 int arr[]={3,56,67,8};
-int minel(int arr[n],int n);
-int maxel(int arr[n],int n);
-int averageel(int arr[n],int n);
+int mel= minel(arr, n);
+int mxel= maxel(arr, n);
+int avgel= averageel( arr,n);
+printf("The result of function minelis: %d \n",mel);
+printf("The result of function maxel is: %d \n",mxel);
+printf("The result of function averageel is: %d \n",avgel);
 }
