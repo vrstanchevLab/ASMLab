@@ -1,5 +1,5 @@
 program.o:program.c
-	gcc -c -o program.o program.c
+	gcc -c -o -g program.o program.c
 arrays.o:arrays.c
 	gcc -c -o arrays.o arrays.c
 libarr.a:  arrays.o
@@ -13,3 +13,5 @@ view:
 	ls .
 clear:
 	rm program.o libarr.a arrays.o  program
+debug:
+	gdb ./program
