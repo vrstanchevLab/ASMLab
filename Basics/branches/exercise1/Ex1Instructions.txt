@@ -2,8 +2,6 @@ Define the exercise for Lecture 3
 1. Create the files called conditionalex.asm and nonconditionalex.asm
 2. Write the following code into conditionalex.asm file:
 .data 
-
-
 .text
 global _start
 _start:
