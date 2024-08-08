@@ -36,11 +36,6 @@ printf("Nested loop\n");
 
 }
 
-
-
-
-
-
 return (0);
 
 }
