@@ -19,6 +19,7 @@ Welcome to the ASMLab repository, a comprehensive resource for learning and expe
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Watch Live on Twitch](#watch-live-on-twitch)
 
 ## Introduction
 
@@ -32,6 +33,7 @@ This repository covers three main areas:
 
 The repository is organized into the following directories:
 
+- `basics/`: Covers the basics of NASM assembly language, providing a solid foundation for beginners.
 - `nasm-c/`: Contains examples, tutorials, and exercises for combining x86 assembly programming (using NASM) with C programming.
 - `gnuasm-c/`: Includes resources for ARM GNU assembly programming with a focus on integrating C code.
 - `nasm-gnuasm/`: Provides examples and exercises that demonstrate the integration and comparison of x86 NASM and ARM GNU assembly programming.
