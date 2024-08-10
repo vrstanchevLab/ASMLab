@@ -1,5 +1,11 @@
 # ASMLab
 
+![GitHub license](https://img.shields.io/github/license/vrstanchevLab/ASMLab)
+![GitHub stars](https://img.shields.io/github/stars/vrstanchevLab/ASMLab?style=social)
+![GitHub forks](https://img.shields.io/github/forks/vrstanchevLab/ASMLab?style=social)
+![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![Languages](https://img.shields.io/github/languages/top/vrstanchevLab/ASMLab)
+
 Welcome to the ASMLab repository, a comprehensive resource for learning and experimenting with x86 assembly programming, ARM GNU assembly programming, and C programming. This repository is designed to serve as a guide and reference for students, hobbyists, and professionals interested in low-level programming and system architecture.
 
 ## Table of Contents
@@ -25,12 +31,10 @@ This repository covers three main areas:
 
 The repository is organized into the following directories:
 
-- `x86_assembly/`: Contains examples, tutorials, and exercises for x86 assembly programming.
-- `arm_gnu_assembly/`: Includes resources for ARM assembly programming using the GNU assembler.
-- `c_programming/`: Provides C code examples that demonstrate how to interact with hardware at a low level.
-- `docs/`: Documentation and additional resources related to the topics covered in this repository.
-- `tools/`: Scripts and utilities to assist with development and debugging.
-- `examples/`: A collection of example programs across all topics.
+- `nasm-c/`: Contains examples, tutorials, and exercises for combining x86 assembly programming (using NASM) with C programming.
+- `gnuasm-c/`: Includes resources for ARM GNU assembly programming with a focus on integrating C code.
+- `nasm-gnuasm/`: Provides examples and exercises that demonstrate the integration and comparison of x86 NASM and ARM GNU assembly programming.
+- `tasks/`: A collection of tasks and challenges designed to test your knowledge and understanding of the topics covered in this repository.
 
 ## Getting Started
 
