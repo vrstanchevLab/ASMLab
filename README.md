@@ -4,7 +4,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/vrstanchevLab/ASMLab?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/vrstanchevLab/ASMLab?style=social)
 ![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
-![Languages](https://img.shields.io/github/languages/second/vrstanchevLab/ASMLab)
+![Languages](https://img.shields.io/github/languages/top/vrstanchevLab/ASMLab)
 ![Twitch](https://img.shields.io/badge/Streamed%20on-Twitch-9146FF?logo=twitch&style=flat)
 
 Welcome to the ASMLab repository, a comprehensive resource for learning and experimenting with x86 assembly programming, ARM GNU assembly programming, and C programming. This repository is designed to serve as a guide and reference for students, hobbyists, and professionals interested in low-level programming and system architecture.
