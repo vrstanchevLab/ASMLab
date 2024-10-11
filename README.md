@@ -19,7 +19,7 @@ Welcome to the ASMLab repository, a comprehensive resource for learning and expe
   - [NASM and C Programming (`nasm-c/`)](#nasm-and-c-programming-nasm-c)
   - [GNU Assembly and C Programming (`gnuasm-c/`)](#gnu-assembly-and-c-programming-gnuasm-c)
   - [NASM and GNU Assembly Comparison (`nasm-gnuasm/`)](#nasm-and-gnu-assembly-comparison-nasm-gnuasm)
-  - [Tasks (`tasks/`)](#tasks-tasks)
+  - [Tasks (`tasks/`)](#tasks)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -52,4 +52,3 @@ To get started with this repository, clone it to your local machine:
 ```bash
 git clone https://github.com/vrstanchevLab/ASMLab.git
 cd ASMLab
-
