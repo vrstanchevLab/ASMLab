@@ -7,15 +7,19 @@ printf(arr[1]) ; //result will be 2
 ```
 ## Function prototypes
 According to function prototypes in file program.h, our functions are:
-arrcounter -> count of array elements
-minel -> for minimal element of the array  
-maxel -> for max  element of the array  
-averageel -> for average element of the array.  
+| Function   | Arguments   |
+|--------------|--------------|
+| arrcounter | count of array elements |
+| minel -> for minimal element of the array  |
+| maxel -> for max  element of the array  |
+|averageel -> for average element of the array.  |
 ## Types of function arguments
-Function arrcounter takes as argument ->pointer to int. 
- Function minel takes as arguments ->pointer to int and int variable.  
- Function maxel takes as arguments ->pointer to int and int variable.    
-  Function averageel takes as arguments ->pointer to int and int variable.  
+| Function   | Arguments   |
+|--------------|--------------|
+|Function arrcounter takes as argument | pointer to int. |
+| Function minel takes as arguments | pointer to int and int variable.  |
+| Function maxel takes as arguments | pointer to int and int variable. |   
+|  Function averageel takes as arguments | pointer to int and int variable. | 
 ## Function Definitions
 All functions are defined by their return type and arguments type according to function prototypes.  
 Functions illustrate different array  algorithms.  
