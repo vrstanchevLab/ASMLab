@@ -26,8 +26,9 @@ We have the following compilation files:
 | Assembly program myprogram.asm | asm  source file -> compiles to object file |
 | myprogram.o | object file    | compiles to executable |
 # Assembly program level of abstraction
-- Assembly language -> Machine code  
-We can tell that when the level of abstraction is as smaller as possible, the programe executes faster. This is very important for embedded systems and for execution of  real-time processes, for example fighterjet missle control system. When we make a dessision for  a few seconds.
+- Assembly language -> Machine code    
+We can tell that when the level of abstraction is as smaller as possible, the programe executes faster.
+ This is very important for embedded systems and for execution of  real-time processes, for example fighterjet missle control system. When we make a dessision for  a few seconds.  
 ## Tools for C/Assembly language build automaion
 - make 
 - cmake
