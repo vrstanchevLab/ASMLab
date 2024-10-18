@@ -25,8 +25,8 @@ int 0x80  ;make a system call to the global label _start
 ``` 
 ## Reasons to use register  eax  
 We can tell that we use register eax because of several reasons    
-1. We use  one register to reduce non-required usage of other registers   
-2. When we do the system call to the global label _start the labels (functions) returns the value stored into the register  eax. In the each functions the value of eax is different. Because of that when we execute the program we can see the value of eax so it's statement has been execute.  
+- We use  one register to reduce non-required usage of other registers   
+- When we do the system call to the global label _start the labels (functions) returns the value stored into the register  eax. In the each functions the value of eax is different. Because of that when we execute the program we can see the value of eax so it's statement has been execute.  
 ## How we can reduse the usage of non-required registers  
 Let's see the following example:
 ```asm
