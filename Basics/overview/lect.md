@@ -10,9 +10,9 @@ FIRST .equ 1
 ``` 
 ##  How CPU understands a  instruction  
 They are 3 states:
-1. Instruction fetch  
-2. Instruction decode  
-3. Instruction execution  
+- Instruction fetch  
+- Instruction decode  
+- Instruction execution  
 ## Basic structure of one instruction
 ```asm
 The structure of simple instruction is given below:  
