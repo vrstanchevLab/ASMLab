@@ -21,9 +21,10 @@ Example: addfunc:  add eax, ebx
 In this example we have a label called addfunc. Our operation is add Our first and second operands are: eax, ebx.
 ```
 ## Basic register types
-Type of the register ->       Register example -> Usage of the register
-General purpose registers -> eax,ebx, ecx etc. -> we can use eax, ebx, to store values in them or perform basic operation such as: add, sub, and mul.  
-Control-flow registers -> bx, cx -> we can use bx and cx when we perform control operations 
+| Type of the register |  Register example   |Usage of the register   |
+|--------------|--------------|--------------|
+|General purpose registers | eax,ebx, ecx etc. | we can use eax, ebx, to store values in them or perform basic operation such as: add, sub, and mul.  |
+|Control-flow registers | bx, cx | we can use bx and cx when we perform control operations |
 ## Jumps and counditional logic
 To jump from one  logic segment of the code to another we can use labels. To create  a new conditional  branch of our program logic, we can use operator compare - cmp and operator jump. They are 2 types of jump - conditional and non-conditional jump. To create non-conditional jump we can use jmp operator.  For the compilation and  execution of the program we can use Make build system - Makefile.  
 Brief example is shown bellow:
@@ -48,18 +49,20 @@ int 0x80  ; we make a system call to the _start label again
 ```
 ## Basic toolchain for work:
 To jump into code writing we need some packages:  
-Vim- text editor  
-nasm - assembly language  compiler  
-make - build system  
+| Package | Description   |
+|--------------|--------------|
+| Vim| text editor | 
+|nasm | assembly language  compiler  |
+|make | build system  |
 ## Instalation commands
 To install them we can write the following commands in our Terminal: 
 | Destribution | Terminal Command    |
 |--------------|--------------|
-| on Debian-based |  sudo apt install vim nasm make  |  
-| on RedHat-based | sudo yum install vim nasm make  |
-| on SUSE-based   | sudo zypper install vim nasm make |  
-| on BSD-based    | sudo pkg install vim nasm make | 
-| on Apple macOS |  sudo brew install vim nasm make | 
+| on Debian-based | ```bash sudo apt install vim nasm make ``` |  
+| on RedHat-based | ```bash sudo yum install vim nasm make ```  |
+| on SUSE-based   | ```bash sudo zypper install vim nasm make ```|  
+| on BSD-based    |```sh sudo pkg install vim nasm make ``` | 
+| on Apple macOS | ```zsh sudo brew install vim nasm make ```| 
 ## Creation of Netwide Assembly files 
 To create a new assembly file use file extension .asm:  
 Just create and open a new assembly file using: 
