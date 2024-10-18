@@ -10,9 +10,9 @@ According to function prototypes in file program.h, our functions are:
 | Function   | Arguments   |
 |--------------|--------------|
 | arrcounter | count of array elements |
-| minel -> for minimal element of the array  |
-| maxel -> for max  element of the array  |
-|averageel -> for average element of the array.  |
+| minel | for minimal element of the array  |
+| maxel | for max  element of the array  |
+|averageel | for average element of the array.  |
 ## Types of function arguments
 | Function   | Arguments   |
 |--------------|--------------|
