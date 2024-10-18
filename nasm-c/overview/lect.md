@@ -1,7 +1,8 @@
 ## Main C program structure
 First we must include all neededlibraries and header files.  
 ## Libraries
-Libraries contains function definitions.A library can contains one or more functions.  
+Libraries contains function definitions.  
+A library can contains one or more functions.     
 Examples of libraries are shown bellow: 
 ```c
 include <stdio.h>    
