@@ -1,5 +1,6 @@
 ## Recursion Overview
-Recursion is a type of function that calls itself into the function body.   It's a specific type of thinking.   Let's see a brief example bellow: 
+Recursion is a type of function that calls itself into the function body.   It's a specific type of thinking.   
+Let's see a brief example bellow: 
 ```asm
 ;code for recursion.asm  
 .text ;start of the code section  
@@ -12,5 +13,5 @@ inc ebx, 1
 jmp rec ; we have non-conditional (direct) jump to the rec label  
 int 0x80 ;Make a system call
 ``` 
- We can tell that the function rec calls itself throght non-conditional jump.    
-In this example we would not use the operators cmp and a conditional not direct jump to the function label.    
+-  We can tell that the function rec calls itself throght non-conditional jump.    
+- In this example we would not use the operators cmp and a conditional not direct jump to the function label.    
