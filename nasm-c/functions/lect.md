@@ -1,4 +1,4 @@
-## Overview of functions project
+## Overview of Functions project
 ## Function Prototypes
 ```c
 int plus(int,int);  
@@ -14,4 +14,4 @@ int multiply(int,int);
 | program.h | Function prototypes |
 | Makefile  | Automation of program build. |
 ## Functions Description
-Each function performs basic arythmetic action.
+- Each function performs basic arythmetic action.
