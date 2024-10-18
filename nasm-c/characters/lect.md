@@ -9,4 +9,4 @@ We have functions:
 | selfchar |   searching character in character array| 
 | asciifind |   indenticating symbol type in character array.| 
 
-All functions are defined in additional.c file. Functions calls are in the file program.c
+- All functions are defined in additional.c file. Functions calls are in the file program.c
