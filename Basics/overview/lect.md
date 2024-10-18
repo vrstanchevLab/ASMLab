@@ -1,5 +1,6 @@
 ## Overview of Netwide assembly language
-NASM is open-source assembly language for x86 based devices. It's avaiable for GNU/Linux,macOS. The code is with sections..data section is about constants. .text section is for source code of the program.
+NASM is open-source assembly language for x86 based devices. It's avaiable for GNU/Linux,macOS.   
+The code is with sections..data section is about constants. .text section is for source code of the program.
 ## Comments
 To write a comment for given code section we can start line using ';'.  
 Example: 
