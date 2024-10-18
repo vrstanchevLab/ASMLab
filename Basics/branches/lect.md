@@ -1,5 +1,6 @@
 ## Conditional and non-conditional (direct) logic  
-In x86-based Netwide assembly language we have conditional and non-conditional logic. We have conditional and non-conditional jumps. Example for conditional logic is given below:  
+In x86-based Netwide assembly language we have conditional and non-conditional logic.  
+We have conditional and non-conditional jumps. Example for conditional logic is given below:    
 ## Conditional logic example (using Conditional jump)
 File: conditional.asm  
 ```asm
