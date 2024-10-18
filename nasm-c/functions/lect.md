@@ -9,7 +9,6 @@ int multiply(int,int);
 ## File Structure 
 | File      | Description   |
 |--------------|--------------|
-
 | function.c | Function declarations. | 
 | program.c | Invoke of the functions.  |
 | program.h | Function prototypes |
