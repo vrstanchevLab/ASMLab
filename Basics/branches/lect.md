@@ -2,6 +2,7 @@
 In x86-based Netwide assembly language we have conditional and non-conditional logic. We have conditional and non-conditional jumps. Example for conditional logic is given below:  
 ## Conditional logic example (using Conditional jump)
 File: conditional.asm  
+```vim
 ```asm
 global _start  
 .data   
@@ -29,7 +30,8 @@ gt:
 mov ecx,3  
 int 0x80  
 mov eax,3
- ```  
+ ```
+```
 ## Non-conditional logic (direct un-conditional jump)
 File:unconditional.asm
 ```asm 
