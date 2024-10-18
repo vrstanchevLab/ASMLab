@@ -26,7 +26,10 @@ In this example we have a label called addfunc. Our operation is add Our first a
 |General purpose registers | eax,ebx, ecx etc. | we can use eax, ebx, to store values in them or perform basic operation such as: add, sub, and mul.  |
 |Control-flow registers | bx, cx | we can use bx and cx when we perform control operations |
 ## Jumps and counditional logic
-To jump from one  logic segment of the code to another we can use labels. To create  a new conditional  branch of our program logic, we can use operator compare - cmp and operator jump. They are 2 types of jump - conditional and non-conditional jump. To create non-conditional jump we can use jmp operator.  For the compilation and  execution of the program we can use Make build system - Makefile.  
+- To jump from one  logic segment of the code to another we can use labels.  
+- To create  a new conditional  branch of our program logic, we can use operator compare - cmp and operator jump.  
+- They are 2 types of jump - conditional and non-conditional jump. To create non-conditional jump we can use jmp operator.   
+- For the compilation and  execution of the program we can use Make build system - Makefile.    
 Brief example is shown bellow:
 ```asm
 .data          ;the data section begins
