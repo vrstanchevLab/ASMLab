@@ -1,8 +1,10 @@
 ## Arrays
 By definition array is structure that has n elements. Every array has a type and it's elements are those type. In some programming languages like PHP and Python,  arrays can has different types of  elements.  
 ## Array declaration examples
+```c
 int arr=[1,2,3]
 printf(arr[1]) ; //result will be 2
+```
 ## Function prototypes
 According to function prototypes in file program.h, our functions are:
 arrcounter -> count of array elements
