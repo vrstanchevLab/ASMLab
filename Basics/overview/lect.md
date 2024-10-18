@@ -58,11 +58,11 @@ To jump into code writing we need some packages:
 To install them we can write the following commands in our Terminal: 
 | Destribution | Terminal Command    |
 |--------------|--------------|
-| on Debian-based | ```bash sudo apt install vim nasm make ``` |  
-| on RedHat-based | ```bash sudo yum install vim nasm make ```  |
-| on SUSE-based   | ```bash sudo zypper install vim nasm make ```|  
-| on BSD-based    |```sh sudo pkg install vim nasm make ``` | 
-| on Apple macOS | ```zsh sudo brew install vim nasm make ```| 
+| on Debian-based |  sudo apt install vim nasm make  |  
+| on RedHat-based |  sudo yum install vim nasm make   |
+| on SUSE-based   |  sudo zypper install vim nasm make |  
+| on BSD-based    | sudo pkg install vim nasm make  | 
+| on Apple macOS |  sudo brew install vim nasm make | 
 ## Creation of Netwide Assembly files 
 To create a new assembly file use file extension .asm:  
 Just create and open a new assembly file using: 
