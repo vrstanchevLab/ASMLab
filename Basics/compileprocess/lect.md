@@ -25,6 +25,7 @@ We can tell that when the level of abstraction is as smaller as possible, the pr
 ## Tools for C/Assembly language build automaion
 make or cmake
 ## The Makefile commands example
+```make
 myprogram.o: myprogram.asm  
 	nasm -f elf myprogram.asm  
 myprogram: myprogram.o  
