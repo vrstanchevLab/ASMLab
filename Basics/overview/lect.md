@@ -3,8 +3,8 @@ NASM is open-source assembly language for x86 based devices. It's avaiable for G
 ## Code Sections 
 | Section | Description   |
 |--------------|--------------|
-| .data section | for data constants | 
-| .text section | for source code of the program |
+| .data  | for data constants | 
+| .text  | for source code of the program |
 ## Comments
 To write a comment for given code section we can start line using ';'.  
 Example: 
