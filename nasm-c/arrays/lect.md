@@ -24,7 +24,9 @@ According to function prototypes in file program.h, our functions are:
 All functions are defined by their return type and arguments type according to function prototypes.  
 Functions illustrate different array  algorithms.  
 ## Function calls
+```c
 All function calls are in the main() function.  
 There are only 2 argument  variables declarated in main() function.  
 There are function result variables declared after argument variables.  
 And printf() for each function.  
+```
