@@ -23,9 +23,9 @@ include "myheader.h"
 ```
  Examples for function prototypes are shown below:
  ```c
-- int myadd(int,int);
-- char charfind(char*);
-- void hello();
+int myadd(int,int);
+ char charfind(char*);
+ void hello();
 ```
 ## Explain of function main()
 - When function has no arguments then we can use keyword void.  
