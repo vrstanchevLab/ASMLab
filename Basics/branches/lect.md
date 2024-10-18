@@ -50,6 +50,6 @@ int 0x80
 ## Difference between conditional and non-conditional jump
 Let see the third instruction in our file condition.asm:  
 The third instruction compares the value of registers eax and ebx  
-If the result of compare is logical 1, then we can jump to the next  instruction for the conditional jump. When we must jump from one label to another we takethe value from previous instruction "compare". This value is the result of logical operation.  And for example jne is used when the value of compare is logical 1 (true).  
-When we have non-conditional, direct jump we don't need a cmp instruction
-This logic is shown in the file unconditional.asm
+- If the result of compare is logical 1, then we can jump to the next  instruction for the conditional jump. When we must jump from one label to another we takethe value from previous instruction "compare". - - This value is the result of logical operation.  And for example jne is used when the value of compare is logical 1 (true).  
+- When we have non-conditional, direct jump we don't need a cmp instruction
+- This logic is shown in the file unconditional.asm
