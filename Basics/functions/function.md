@@ -35,11 +35,12 @@ FIRST equ 10
 SECOND equ 11  
 global _start  
 _start:
-.text   
+.text
+``` 
 ;if these were C we would store the action value into third variable 
 ; Into the memory for the all 3 variable of type int  would be set 4Bytes of storage for each variable   
 ; In Assembly language we can reduse that this way:
- ```
+
 ```asm
  .data  
 FIRST equ 7  
