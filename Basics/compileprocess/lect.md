@@ -23,7 +23,7 @@ We have the following compilation files:
 ## NASM-program Compilation and level of abstraction 
 | File    |  File  Type | Next  action |
 |-------------|--------------|--------------|   
-| Assembly program myprogram.asm | asm  source file | compiles to object file |
+|  myprogram.asm | asm  source file | compiles to object file |
 | myprogram.o | object file    | compiles to executable |
 # Assembly program level of abstraction
 - Assembly language -> Machine code    
