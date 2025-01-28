@@ -61,6 +61,7 @@ To jump into code writing we need some packages:
 |--------------|--------------|
 | Vim| text editor | 
 |nasm | assembly language  compiler  |
+|gdb | assembly language  debugger  |
 |make | build system  |
 ## Instalation commands
 To install them we can write the following commands in our Terminal: 
