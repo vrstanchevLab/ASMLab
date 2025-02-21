@@ -8,18 +8,16 @@
 ![C](https://img.shields.io/badge/language-C-blue.svg)
 ![Twitch](https://img.shields.io/badge/Streamed%20on-Twitch-9146FF?logo=twitch&style=flat)
 
-Welcome to the ASMLab repository, a comprehensive resource for learning and experimenting with x86 assembly programming, ARM GNU assembly programming, and C programming. This repository is designed to serve as a guide and reference for students, hobbyists, and professionals interested in low-level programming and system architecture.
+Welcome to **ASMLab**, an open-source project designed for learning and experimenting with **x86 Assembly**, **ARM GNU Assembly**, and **C programming**. Whether you're a beginner or an experienced developer, ASMLab provides **hands-on examples, exercises, and projects** to improve your low-level programming skills.
 
-## Table of Contents
+---
+
+## 📌 Table of Contents
 
 - [Introduction](#introduction)
+- [Why Use ASMLab?](#why-use-asmlab)
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
-  - [Basics of NASM Assembly (`basics/`)](#basics-of-nasm-assembly-basics)
-  - [NASM and C Programming (`nasm-c/`)](#nasm-and-c-programming-nasm-c)
-  - [GNU Assembly and C Programming (`gnuasm-c/`)](#gnu-assembly-and-c-programming-gnuasm-c)
-  - [NASM and GNU Assembly Comparison (`nasm-gnuasm/`)](#nasm-and-gnu-assembly-comparison-nasm-gnuasm)
-  - [Tasks (`tasks/`)](#tasks)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -27,27 +25,45 @@ Welcome to the ASMLab repository, a comprehensive resource for learning and expe
 - [Contact](#contact)
 - [Watch Live on Twitch](#watch-live-on-twitch)
 
-## Introduction
+---
 
-This repository covers three main areas:
+## 📖 Introduction
 
-1. **x86 Assembly Programming**: Learn how to write assembly code for x86 architecture, understand low-level operations, and interface with hardware directly.
-2. **ARM GNU Assembly Programming**: Explore assembly programming for ARM processors using the GNU assembler, focusing on modern ARM architecture.
-3. **C Programming**: Understand how to write efficient C code that interacts with low-level hardware components, using both x86 and ARM architectures.
+ASMLab covers **three key areas** of low-level programming:
 
-## Repository Structure
+1. **x86 Assembly (NASM)** – Write and understand low-level x86 assembly code.
+2. **ARM GNU Assembly** – Work with modern ARM assembly using the GNU assembler.
+3. **C Programming** – Learn how C interacts with assembly for efficient performance.
 
-The repository is organized into the following directories:
+🚀 **All examples include hands-on exercises & real-world applications!**
 
-- `basics/`: Covers the basics of NASM assembly language, providing a solid foundation for beginners.
-- `nasm-c/`: Contains examples, tutorials, and exercises for combining x86 assembly programming (using NASM) with C programming.
-- `gnuasm-c/`: Includes resources for ARM GNU assembly programming with a focus on integrating C code.
-- `nasm-gnuasm/`: Provides examples and exercises that demonstrate the integration and comparison of x86 NASM and ARM GNU assembly programming.
-- `tasks/`: A collection of tasks and challenges designed to test your knowledge and understanding of the topics covered in this repository.
+---
 
-## Getting Started
+## ❓ Why Use ASMLab?
 
-To get started with this repository, clone it to your local machine:
+✅ **Learn low-level programming** in a structured way.  
+✅ **Covers multiple architectures** (x86, ARM).  
+✅ **Hands-on learning** with **real-world examples**.  
+✅ **Bridges Assembly and C** for deeper understanding.  
+✅ **100% Open Source** – Free to use and contribute!  
+
+---
+
+## 📁 Repository Structure
+
+| Directory        | Description |
+|-----------------|-------------|
+| `basics/`      | Covers NASM assembly fundamentals. |
+| `nasm-c/`      | Examples of combining NASM assembly with C. |
+| `gnuasm-c/`    | ARM GNU assembly projects with C integration. |
+| `nasm-gnuasm/` | Side-by-side examples of NASM & GNU assembly. |
+| `tasks/`       | Challenges to test your assembly skills. |
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/vrstanchevLab/ASMLab.git
