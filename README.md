@@ -18,12 +18,6 @@ Welcome to **ASMLab**, an open-source project designed for learning and experime
 - [Why Use ASMLab?](#why-use-asmlab)
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Watch Live on Twitch](#watch-live-on-twitch)
 
 ---
 
