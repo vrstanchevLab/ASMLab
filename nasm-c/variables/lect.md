@@ -13,12 +13,13 @@ _Library stdio contains functions:_
 _Every variable is entered throught keyboard. Every variable type has a formatter._  
 ##Variable  Formaters
 Formatters are shown bellow:    
-| Variable Type | Formatter |  
-|-------------|--------------|  
-| int         | %d |   
-| double      | %d |   
-| char        | %c | 
-| of  pointer | %p | 
-|  float      | %f |
+| Variable Type | Formatter |
+|--------------|-----------|
+| int          | %d        |
+| double       | %lf       |
+| char         | %c        |
+| pointer      | %p        |
+| float        | %f        |
+
 - They values are shown to the user using printf function.   
 - The argument of printf function is name of the variable. 
