@@ -21,5 +21,6 @@ Formatters are shown bellow:
 | pointer      | %p        |
 | float        | %f        |
 
+
 - They values are shown to the user using printf function.   
 - The argument of printf function is name of the variable. 
